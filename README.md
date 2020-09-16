@@ -5,3 +5,6 @@ Jacocoにて、カバレッジのレポートが出るだけのからっぽ
 `
 mvn clean jacoco:prepare-agent test jacoco:report
 `
+
+#### レポートの場所は
+  target/site/jacoco/index.html
