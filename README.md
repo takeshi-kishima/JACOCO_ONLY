@@ -10,4 +10,4 @@ mvn clean jacoco:prepare-agent test jacoco:report
   target/site/jacoco/index.html
 
 # ハマった事！！
-プロジェクトの場所に注意、ディレクトリに日本語が混ざっていると、jacoco.execが生成に失敗します！！お気をつけてください！
+プロジェクトの場所に注意、ディレクトリに日本語が混ざっていると、jacoco.execの生成に失敗します！！お気をつけてください！
